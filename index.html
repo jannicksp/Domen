@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parallax Scrolling effects pure CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Scripts --> 
+<script type="text/javascript">
+	if (typeof jQuery == 'undefined')
+		document.write(unescape("%3Cscript src='js/jquery-1.9.js'" + 
+															"type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript" language="javascript" src="js/trunk.js"></script>
+</head>
+
+<body>
+   
+    <div class="container">
+    
+
+
+
+        <div class="pa parallax" id="paris">
+        
+        
+        <div id="nav">
+        <img id="logo" src="img/domenlogo.png"> 
+          
+         <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+   <a href="#">  <img id="logo" src="img/domenudenlogo.png"></a>
+     <br>
+      <a href="#">Forside</a>
+    <a href="#">Domen</a>
+    <a href="#">Vision</a>
+    <a href="#">Forum</a>
+    <a href="#">Kontakt</a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+        </div>
+            <div class="bg">
+                         
+                         
+                         
+
+               
+               
+               
+               
+               
+               
+               
+                <h2>Et hus fyldt med aktiviteter året rundt, hvor fællesskab, medborgerskab og bæredygtighed står øverst på dagsordenen. </h2>
+            </div>
+        </div>
+
+        <div class="between">
+            <div class="title middle">
+                <h1>Events</h1>
+                <img src="img/button-down-arrow.svg" style="width: 15%" class=" vibrate-1" id="tilIstanbul)">
+            </div>
+        </div>
+
+        <div class="ist parallax" id="istanbul">
+            <audio src="Walker.mp3" id="walker"></audio>
+            <div class="bg">
+                <h2></h2>
+            </div>
+        </div>
+
+        <div class="between">
+            <div class="title middle">
+                <h1>Følg med på instagram</h1>
+                <img src="img/button-down-arrow.svg" style="width: 15%" class=" vibrate-1" id="tilFirenze)">
+            </div>
+        </div>
+
+        <div class="fir parallax" id="firenze">
+            <audio src="Funky_Groove.mp3" id="funky"></audio>
+            <div class="bg">
+                <h2></h2>
+            </div>
+        </div>
+
+
+        <div class="between">
+            <div class="title middle">
+                <h1>Åbningstider</h1>
+                <img src="img/button-down-arrow.svg" style="width: 15%" class=" vibrate-1" id="tilVideo">
+            </div>
+        </div>
+
+        <div class="between">
+            <video src="walking.mp4" id="video"></video>
+        </div>
+
+        <div class="between">
+            <div class="title middle">
+                <h1>Footer</h1>
+                <img src="img/button-up-arrow.svg" style="width: 15%" class=" vibrate-1" id="tilParis)">
+            </div>
+        </div>
+    </div>
+    <script src="mitjs.js"></script>
+</body>
+
+</html>
