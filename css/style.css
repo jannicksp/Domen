@@ -15,7 +15,7 @@ html {
 img {
     cursor: pointer;
 }
-
+/* parallax container */
 .container {
     width: 100%;
     margin: 0 auto;
@@ -50,7 +50,7 @@ img {
     padding: 1rem 0;
 }
 
-
+/* Hvidt stykke mellem billeder */
 .between {
     background-image: url(../img/pattern.png);
 
@@ -62,7 +62,7 @@ img {
 
 
 }
-
+/* Tekstfelt */
 .bg {
     width: auto;
     background-color: rgba(0, 0, 0, 0);
@@ -82,7 +82,7 @@ img {
 
 
 
-
+/* P-tag med padding*/
 }
 #skub {
     padding-bottom: 40%;
@@ -98,7 +98,7 @@ img {
 
 
 }
-
+/* Indhold i hvid boks*/
 .middle {
     position: absolute;
     top: 50%;
@@ -106,7 +106,7 @@ img {
     transform: translate(-50%, -50%);
 
 }
-
+/* Første big photo*/
 .container .for {
     background-image: url("../img/domen.jpg");
 }
@@ -125,7 +125,7 @@ img {
 }
 
 
-
+/* andet bigphoto */
 .container .eve {
     background-image:
         url("../img/event/event1.png");
@@ -138,7 +138,6 @@ img {
 
 
 }
-
 
 
 .container .eve2 {
@@ -155,6 +154,7 @@ img {
 multiinsta{
     display: block;
 }
+/* tredje bigphoto */
 .container .insta {
     background-image:
         url("../img/ig/ig2.jpg");
@@ -201,7 +201,7 @@ margin-bottom: 1%;
     margin-top: 1%
 }
 
-
+/* Nav overlay */
 
 .overlay {
     height: 100%;
@@ -262,6 +262,7 @@ margin-bottom: 1%;
     padding-top: 0%
 }
 
+/* åbningstider */
 .aabningstider {
     color: black;
     font-size: 25px;
@@ -271,7 +272,7 @@ margin-bottom: 1%;
 
 
 }
-
+/* Footer */
 footer {
     display: flex;
     justify-content: center;
@@ -283,6 +284,7 @@ footer img {
 
 
 }
+/* Slideshow */
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -374,6 +376,7 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
+/* Media queries */
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px;}
