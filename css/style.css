@@ -10,108 +10,78 @@ html {
     font-weight: 100;
     font-family: 'PT sans narrow', sans-serif;
     overflow-x: hidden;
+    background-image: url(../img/pattern.png)
 }
 
 img {
     cursor: pointer;
 }
-/* parallax container */
-.container {
-    width: 100%;
-    margin: 0 auto;
-    color: white;
-    text-align: center;
-    letter-spacing: 1rem;
-    text-transform: uppercase;
-}
 
-.container .title {
-    padding: 6rem;
-}
-
-}
-
-.container h1 {
-    font-size: 4.5rem;
-    margin-right: -1rem;
-}
-
-.container h2 {
-    font-size: 7rem;
-    margin-right: -1rem;
-    color: #fff;
-    z-index: 10;
-    opacity: 0.8;
-}
-
-.container h3 {
-    font-size: 1.4rem;
-    line-height: 0;
-    padding: 1rem 0;
-}
-
-/* Hvidt stykke mellem billeder */
-.between {
-    background-image: url(../img/pattern.png);
-
-
-    height: 15rem;
-    position: relative;
-    color: black;
-    clear: both;
-
-
-}
-/* Tekstfelt */
-.bg {
-    width: auto;
-    background-color: rgba(0, 0, 0, 0);
-    padding: 2rem 0;
-    margin-left: 2%;
-    margin-right: 57%;
-
-}
-
-.bg p {
-    font-size: 20px;
-    letter-spacing: 0.2rem;
-    text-transform: none;
-    font-family: 'PT sans narrow', sans-serif;
-    text-align: left;
-    color: white;
-
-
-
-/* P-tag med padding*/
-}
-#skub {
-    padding-bottom: 40%;
-}
-
-.bg h4 {
-    font-size: 25px;
-    color: #6ce1ac;
-    letter-spacing: 0.2rem;
-    text-transform: none;
-    text-align: left;
-    font-family: 'PT sans narrow', sans-serif;
-
-
-}
-/* Indhold i hvid boks*/
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
 /* Første big photo*/
 .container .for {
     background-image: url("../img/domen.jpg");
 }
 
+/* Parallax container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
 
+/* Overskrifter */
+.container h1 {
+    font-size: 400%;
+}
+
+/* Bjælker mellem opslag */
+.between {
+    height: 30rem;
+    position: relative;
+    color: black;
+    clear: both;
+}
+
+
+
+/* Tekstfelter */
+.bg {
+    width: auto;
+    margin-left: 3%;
+    margin-right: 50%;
+}
+
+/* Tekst til bigphoto */
+#velkomsttekst {
+    font-size:250%;
+    text-align: left;
+    padding-bottom: 45%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+/* Highlighted tekst */
+marker {
+    font-size: 120%;
+    font-weight: bold;
+    color: #91E0A7;
+}
+
+/* P-tag med padding*/
+#skub {
+    padding-bottom: 40%;
+}
+
+/* Indhold i hvid boks*/
+.middle {
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+   
+}
+.middlefriv{}
 
 .container .parallax {
     width: 100%;
@@ -119,9 +89,9 @@ img {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     overflow: hidden;
-     /*background-attachment: fixed;*/
+    /*background-attachment: fixed;*/
 }
 
 
@@ -135,30 +105,32 @@ img {
     display: none;
     margin-right: 1%;
     margin-left: 1%;
-
-
 }
 
 
 .container .eve2 {
     background-image:
         url("../img/event/event2.png");
-    width: 49%;
+    width: 48%;
     float: left;
     clear: right;
     display: none;
     margin-left: 1%;
-   
+    margin-right: 1%;
+
 }
 
-multiinsta{
+/* Instafeed */
+multiinsta {
     display: block;
 }
+
 /* tredje bigphoto */
 .container .insta {
     background-image:
         url("../img/ig/ig2.jpg");
     width: 46%;
+    
     float: left;
     clear: left;
     margin-bottom: 1%;
@@ -169,14 +141,15 @@ multiinsta{
 
 
 .container .insta2 {
-       background-image: url("../img/ig/ig3.jpg");
+    background-image: url("../img/ig/ig3.jpg");
     width: 46%;
     float: left;
     clear: right;
-margin-bottom: 1%;
+    margin-bottom: 1%;
     margin-right: 1%;
     margin-left: 1%;
-    margin-top: 1%}
+    margin-top: 1%
+}
 
 .container .insta3 {
     background-image:
@@ -184,11 +157,12 @@ margin-bottom: 1%;
     width: 46%;
     float: left;
     clear: left;
-   margin-bottom: 1%;
+    margin-bottom: 1%;
     margin-right: 1%;
     margin-left: 3%;
-    margin-top: 1%
+    margin-top: 1%;
 }
+
 .container .insta4 {
     background-image:
         url("../img/ig/ig4.jpg");
@@ -200,7 +174,67 @@ margin-bottom: 1%;
     margin-left: 1%;
     margin-top: 1%
 }
+/*  big photo underside domen*/
+.container .for2 {
+    background-image: url("../img/baren.jpg");
+}
+.container .fri {
+    background-image: url("../img/cafe-mellemfolkeligtsamvirke.jpg");
+}
+.container .ark {
+    background-image: url("../img/domen3.png");
+}
+/* andet bigphoto underside domen */
+.container .domebar {
+    background-image:
+        url("../img/barenudvalg.jpg");
+    width: 48%;
+    float: left;
+    clear: left;
+    display: none;
+    margin-right: 1%;
+    margin-left: 1%;
+}
 
+
+.container .domebar2 {
+    background-image:
+        url("../img/barenudvalg.2jpg.jpg");
+    width: 48%;
+    float: left;
+    clear: right;
+    display: none;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.container .fri{
+     
+    background-position:center;
+    overflow: hidden;
+    background-attachment: fixed
+}
+.container .ark{
+      background-size:contain;
+    background-position:center;
+    overflow: hidden;
+    background-attachment: fixed
+}
+/* bigphoto underside vision*/
+.container .medborg {
+    background-image: url("../img/medborger.jpg");
+      background-size:contain;
+    background-position:center;
+    overflow: hidden;
+    background-attachment: fixed
+}
+.container .byliv {
+    background-image: url("../img/omdrejningspunkt.jpg");
+      background-size:contain;
+    background-position:center;
+    overflow: hidden;
+    background-attachment: fixed
+}
 /* Nav overlay */
 
 .overlay {
@@ -250,7 +284,7 @@ margin-bottom: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 7%;
 }
 
 #nav img {
@@ -265,15 +299,13 @@ margin-bottom: 1%;
 /* åbningstider */
 .aabningstider {
     color: black;
-    font-size: 25px;
+    font-size: 250%;
     width: 100%;
-    height: auto;
-    background-image: url(../img/pattern.png);
-
-
 }
+
 /* Footer */
 footer {
+    background-color: #91E0A7;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -284,102 +316,137 @@ footer img {
 
 
 }
+
 /* Slideshow */
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    right: 94%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
-
+p{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+     line-height:1.4
+}
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    position: absolute;
+    bottom: 10%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.text p {
+    font-size: 220%;
+    text-align: left;
+    padding-left: 3%;
+    padding-bottom: 1%;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /* Media queries */
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px;}
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px;
+    }
 }
 
 
@@ -407,20 +474,40 @@ img {vertical-align: middle;}
     #nav img {
         width: 10%;
     }
-    .slideshow-container{
+
+    .slideshow-container {
         display: none;
     }
-    .kugler{
+
+    .kugler {
         display: none;
     }
+
     .container .eve {
-    display: flex;
+        display: flex;
 
 
-}
+    }
 
-.container .eve2 {
+    .container .eve2 {
+
+        display: flex;
+    }
+     .container .domebar {
+        display: flex;
+
+
+    }
+
+    .container .domebar2 {
+
+        display: flex;
+    }
+    .middle {
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
    
-    display: flex;
 }
 }
