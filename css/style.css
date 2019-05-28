@@ -137,60 +137,28 @@ marker {
 }
 
 /* Instafeed */
-multiinsta {
-    display: block;
+.multiinsta {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+.multiinsta img{
+    width: 33%;
+    height: 33%;
+}
+.multiinsta2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.multiinsta2 img{
+    width: 33%;
+    height: 33%;
+}
+
 
 /* tredje bigphoto */
 
-.container .insta {
-    background-image:
-        url("../img/ig/ig2.jpg");
-    width: 46%;
-
-    float: left;
-    clear: left;
-    margin-bottom: 1%;
-    margin-right: 1%;
-    margin-left: 3%;
-    margin-top: 1%
-}
-
-
-.container .insta2 {
-    background-image: url("../img/ig/ig3.jpg");
-    width: 46%;
-    float: left;
-    clear: right;
-    margin-bottom: 1%;
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-top: 1%
-}
-
-.container .insta3 {
-    background-image:
-        url("../img/ig/ig1.jpg");
-    width: 46%;
-    float: left;
-    clear: left;
-    margin-bottom: 1%;
-    margin-right: 1%;
-    margin-left: 3%;
-    margin-top: 1%;
-}
-
-.container .insta4 {
-    background-image:
-        url("../img/ig/ig4.jpg");
-    width: 46%;
-    float: left;
-    clear: right;
-    margin-bottom: 1%;
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-top: 1%
-}
 
 /*  big photo underside domen*/
 .container .for2 {
@@ -252,6 +220,8 @@ multiinsta {
 .container .for5 {
     background-image: url("../img/kontakt.jpg");
 }
+.container .for6 {
+    background-image: url("../img/forum.jpg");}
 
 .container .medborg {
     background-image: url("../img/medborger.jpg");
@@ -482,6 +452,42 @@ p {
 
 }
 
+.contact{
+		padding: 4%;
+		height: 400px;
+	}
+	.col-md-3{
+		background-image: url(../img/pattern.png);
+		padding: 4%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.col-md-9{
+		padding: 3%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #91e0a7;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
 
 
 /* Media queries */
