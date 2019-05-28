@@ -236,14 +236,12 @@ i {
 
     background-position: center;
     overflow: hidden;
-    background-attachment: fixed
 }
 
 .container .ark {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    background-attachment: fixed
 }
 
 /* bigphoto underside vision*/
@@ -665,6 +663,12 @@ input[type=submit]:hover {
     background-attachment: fixed
 }
     .container .byliv {
+    background-attachment: fixed
+}
+    .container .fri {
+    background-attachment: fixed
+}
+    .container .ark {
     background-attachment: fixed
 }
 }
