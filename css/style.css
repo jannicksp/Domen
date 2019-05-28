@@ -145,6 +145,7 @@ marker {
 .multiinsta img{
     width: 33%;
     height: 33%;
+    padding: 1%;
 }
 .multiinsta2 {
     display: flex;
@@ -154,6 +155,7 @@ marker {
 .multiinsta2 img{
     width: 33%;
     height: 33%;
+    padding: 1%;
 }
 
 
