@@ -659,6 +659,7 @@ input[type=submit]:hover {
     }
 
     #velkomsttekstvision {
+        opacity: 0.1;
         display: block;
     }
 
