@@ -72,7 +72,7 @@ h3 {
 }
 
 .between2{
-    height:35rem;
+    height:25rem;
 }
 
 .between img {
@@ -673,4 +673,5 @@ input[type=submit]:hover {
     .container .ark {
     background-attachment: fixed
 }
+    p{}
 }
