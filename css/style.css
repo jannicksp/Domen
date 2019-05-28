@@ -73,7 +73,6 @@ h3{
 margin-left: 43%;
     margin-right: 43%;
     width: 14%;
-    padding:auto;
     margin-top: 5%;
 }
 
@@ -103,7 +102,7 @@ margin-left: 43%;
 }
 
 /* Highlighted tekst */
-marker {
+i {
     
     font-weight: bold;
     color: #91E0A7;
@@ -334,9 +333,6 @@ marker {
     text-align: center;
 }
 
-.adresse{
-    position: center;
-}
 
 .flexbox{
     display: flex;
