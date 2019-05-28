@@ -573,4 +573,14 @@ p {
         width: 50%;
 
     }
+    .multiinsta {
+    width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+}
+    .multiinsta2 {
+    width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+}
 }
