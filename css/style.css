@@ -87,12 +87,12 @@ h3 {
 .bg {
     width: auto;
     margin-left: 3%;
-    margin-right: 50%;
+    margin-right: 45%;
 }
 
 /* Tekst til bigphoto */
 #velkomsttekst {
-    font-size: 250%;
+    font-size: 200%;
     text-align: left;
     padding-bottom: 45%;
     padding-top: 10%;
@@ -660,12 +660,7 @@ input[type=submit]:hover {
         font-size: 40px;
 
     }
-
-    #velkomsttekst {
-        padding-bottom: 0%;
-        font-size: 40px;
-
-    }
+    
     .container .medborg {
     background-attachment: fixed
 }
