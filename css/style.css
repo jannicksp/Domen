@@ -564,7 +564,6 @@ input[type=submit]:hover {
     /* Overskrifter */
 
 h1{
-    position: absolute;
     line-height: 1.2em;
     font-size: 3em;
     
@@ -631,4 +630,8 @@ h3{
     #velkomsttekstvision {
         display: block;
     }
+    #velkomsttekst {
+    padding-bottom: 0%;
+   
+}
 }
