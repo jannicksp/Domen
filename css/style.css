@@ -89,6 +89,14 @@ margin-left: 43%;
     padding-top: 10%;
     padding-left: 10%;
 }
+#velkomsttekstvision {
+    font-size: 250%;
+    text-align: left;
+    padding-bottom: 45%;
+    padding-top: 10%;
+    padding-left: 10%;
+    display: none;
+}
 
 /* Highlighted tekst */
 marker {
@@ -624,4 +632,7 @@ h3{
         margin-left: 25%;
         margin-right: 25%;
 }
+    #velkomsttekstvision {
+        display: block;
+    }
 }
