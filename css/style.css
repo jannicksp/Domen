@@ -38,10 +38,24 @@ img {
 }
 
 /* Overskrifter */
-.container h1 {
+
+h1{
+    position: relative;
+    margin-bottom: 30%;
+    line-height: 1.2em;
+    
+}
+.container h2 {
     font-size: 400%;
     text-align: center;
+    
 }
+
+h3{
+      font-size: 200%;
+    text-align: left;
+}
+
 
 /* Bjælker mellem opslag */
 .between {
@@ -78,7 +92,7 @@ margin-left: 43%;
 
 /* Highlighted tekst */
 marker {
-    font-size: 120%;
+    
     font-weight: bold;
     color: #91E0A7;
 }
