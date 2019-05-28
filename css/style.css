@@ -371,6 +371,12 @@ p {
     padding-top: 10px;
     line-height: 1.4
 }
+#her{
+    text-decoration: none;
+    color: #91e0a7;
+    font-weight: bold;
+    font-size: 22px;
+}
 
 /* Caption text */
 .text {
