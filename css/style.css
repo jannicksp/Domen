@@ -61,14 +61,18 @@ h3 {
 
 /* Bjælker mellem opslag */
 .between {
-    height: 30rem;
+    height: 35rem;
     position: relative;
     color: black;
     clear: both;
 }
 
 .between1 {
-    height: 8rem;
+    height: 15rem;
+}
+
+.between2{
+    height:35rem;
 }
 
 .between img {
@@ -346,11 +350,6 @@ i {
 .flexbox {
     display: flex;
     justify-content: space-between;
-}
-
-
-.between2{
-    height:35rem;
 }
 
 /* Footer */
