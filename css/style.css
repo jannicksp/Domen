@@ -65,6 +65,10 @@ h3{
     clear: both;
 }
 
+.between1{
+    height: 8rem;
+}
+
 .between img{ 
 margin-left: 43%;
     margin-right: 43%;
@@ -573,9 +577,9 @@ p {
     /* Overskrifter */
 
 h1{
-    position: relative;
+    position: absolute;
     line-height: 1.2em;
-    font-size: 2em;
+    font-size: 3em;
     
 }
 .container h2 {
