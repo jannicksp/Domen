@@ -12,6 +12,7 @@
         if (typeof jQuery == 'undefined')
             document.write(unescape("%3Cscript src='js/jquery-1.9.js'" +
                 "type='text/javascript'%3E%3C/script%3E"))
+
     </script>
     <script type="text/javascript" language="javascript" src="js/trunk.js"></script>
     <script>
@@ -38,10 +39,10 @@
                 <a href="index.html"><img id="logo" src="img/domenlogo.png" alt="logo"></a>
 
 
-                     <div id="myNav" class="overlay">
+                <div id="myNav" class="overlay">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <div class="overlay-content">
-                        <a id="logouden" href="index.html"> <img  src="img/domenudenlogo.png"></a>
+                        <a id="logouden" href="index.html"> <img src="img/domenudenlogo.png"></a>
                         <br>
                         <a href="index.html">Forside</a>
                         <a href="domen.html">Domen</a>
@@ -54,48 +55,54 @@
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
             </div>
             <!-- Header slut-->
-
+            <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
             <div class="between">
-            <div class="title middle">
-            <h2 class="forum"> Afhold event</h2>
+                <div class="title middle">
+                    <h2 class="forum"> Afhold event</h2>
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Navn</label>
-    <input type="text" id="fname" name="firstname" placeholder=" Navn..">
+                    <div class="container">
+                        <form action="/action_page.php">
+                            <label for="fname">Navn</label>
+                            <input type="text" id="fname" name="firstname" placeholder=" Navn..">
 
-    <label for="lname">Efternavn</label>
-    <input type="text" id="lname" name="lastname" placeholder=" Efternavn..">
+                            <label for="lname">Efternavn</label>
+                            <input type="text" id="lname" name="lastname" placeholder=" Efternavn..">
 
-    <label for="country">Eventtype</label>
-    <select id="country" name="country">
-      <option value="australia">Foredag</option>
-      <option value="canada">Fest</option>
-      <option value="usa">Workshop</option>
-    </select>
+                            <label for="country">Eventtype</label>
+                            <select id="country" name="country">
+                                <option value="australia">Foredag</option>
+                                <option value="canada">Fest</option>
+                                <option value="usa">Workshop</option>
+                            </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:200px"></textarea>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:200px"></textarea>
 
-    <input type="submit" value="Indsend">
-  </form>
-</div>
+                            <input type="submit" value="Indsend">
+                        </form>
+                    </div>
 
+                </div>
+                <div class="between">
+                    <div class="title middle">
+                    </div>
+                </div>
+            </div>
         </div>
-            <div class="between">
+
+        <div class="between">
             <div class="title middle">
-                </div></div>
             </div>
         </div>
     </div>
-    
-    
 
-   <!-- Footer -->
-  <footer>
-        <a href =" https://www.facebook.com/domenaarhus/"><img src="img/facebook-logo-button.png"alt="facebooklogo"></a>
-        <a href =" https://www.instagram.com/explore/tags/domenaarhus/?hl=da"><img src="img/instagram-logo.png" alt="instagramlogo"></a>
-<a href="mailto:domen@aarhus.dk"><img src="img/email.png"alt="maillogologo"></a>
+
+
+    <!-- Footer -->
+    <footer>
+        <a href=" https://www.facebook.com/domenaarhus/"><img src="img/facebook-logo-button.png" alt="facebooklogo"></a>
+        <a href=" https://www.instagram.com/explore/tags/domenaarhus/?hl=da"><img src="img/instagram-logo.png" alt="instagramlogo"></a>
+        <a href="mailto:domen@aarhus.dk"><img src="img/email.png" alt="maillogologo"></a>
     </footer>
     <!-- Footer slut -->
 
