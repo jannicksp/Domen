@@ -482,7 +482,9 @@ p {
     width: 50%;
 
 }
-
+.forum{
+    color: black;
+}
 .contact{
 		padding: 4%;
 		height: 400px;
