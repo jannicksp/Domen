@@ -89,6 +89,14 @@ margin-left: 43%;
     padding-top: 10%;
     padding-left: 10%;
 }
+#velkomsttekstvision {
+    font-size: 250%;
+    text-align: left;
+    padding-bottom: 45%;
+    padding-top: 10%;
+    padding-left: 10%;
+    display: none;
+}
 
 /* Highlighted tekst */
 marker {
@@ -561,6 +569,26 @@ p {
     #logouden img{
         width:300px;
     }
+    
+    /* Overskrifter */
+
+h1{
+    position: relative;
+    line-height: 1.2em;
+    font-size: 2em;
+    
+}
+.container h2 {
+    font-size: 400%;
+    text-align: center;
+    
+}
+
+h3{
+      font-size: 200%;
+    text-align: left;
+}
+
 
     .slideshow-container {
         display: none;
@@ -609,4 +637,7 @@ p {
         margin-left: 25%;
         margin-right: 25%;
 }
+    #velkomsttekstvision {
+        display: block;
+    }
 }
