@@ -30,7 +30,7 @@ img {
 }
 
 #logouden img {
-    width: 300px;
+    width: 200px;
 }
 
 #logo{
@@ -519,7 +519,11 @@ p {
     }
     
     #logo{
-        width: 130%;
+        width: 80%;
+    }
+    
+    #logouden img{
+        width:300px;
     }
 
     .slideshow-container {
