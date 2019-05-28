@@ -556,6 +556,26 @@ p {
     #logouden img{
         width:300px;
     }
+    
+    /* Overskrifter */
+
+h1{
+    position: relative;
+    line-height: 1.2em;
+    font-size: 2em;
+    
+}
+.container h2 {
+    font-size: 400%;
+    text-align: center;
+    
+}
+
+h3{
+      font-size: 200%;
+    text-align: left;
+}
+
 
     .slideshow-container {
         display: none;
