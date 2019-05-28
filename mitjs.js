@@ -25,39 +25,50 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-function erSynlig(elementId){
-    var elementBoks = document.getElementById(elementId).getBoundingClientRect();
-    var halvtredsPct = elementBoks.height*0.5;
-    var start = window. innerHeight-halvtredsPct;
-    if(elementBoks.top <= start && elementBoks.bottom -halvtredsPct > 0 ){
-        return true;
-    } else{
-        return false;
-    }
-}
 
 
-function aktiverMultimedier(elementIdListe, AVIdListe){
-    for (var i=0; i < elementIdListe.length; i++){
-        if (erSynlig(elementIdListe[i])){
-          document.getElementById(AVIdListe[i]).play();  
-        }
-        else{
-            document.getElementById(AVIdListe[i]).pause();
-        }
-    }
-    
-}
+
+
 
 
 //hovedprogramdel
-var elementIdListe =["paris","istanbul","firenze","video"];
-var AVIdListe =["bouncy", "walker","funky","video"];
 
-window.addEventListener("scroll", function(){
-    aktiverMultimedier (elementIdListe,AVIdListe);
+
+//document.getElementById("tilIstanbul").addEventListener("click",function () {
+//    document.getElementById("insta").scrollIntoView(true);
+//});
+
+
+
+
+document.getElementById("1").addEventListener("click",function() {
+    document.getElementById("2").scrollIntoView(true);
+    
+});
+document.getElementById("2").addEventListener("click",function() {
+    document.getElementById("3").scrollIntoView(true);
+});
+document.getElementById("3").addEventListener("click",function() {
+    document.getElementById("0").scrollIntoView(true);
 });
 
-document. getElementById("tilVideo").addEventListener("click",function () {
-    document. getElementById("video").scrollIntoView(true);
+
+
+document.getElementById("dom1").addEventListener("click",function() {  
+    document.getElementById("22").scrollIntoView(true);
 });
+document.getElementById("22").addEventListener("click",function() {
+    document.getElementById("33").scrollIntoView(true);
+});
+document.getElementById("33").addEventListener("click",function() {
+    document.getElementById("44").scrollIntoView(true);
+});
+document.getElementById("44").addEventListener("click",function() {
+    document.getElementById("00").scrollIntoView(true);
+});
+
+
+
+
+
+
