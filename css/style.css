@@ -123,8 +123,6 @@ marker {
 
 }
 
-.middlefriv {}
-
 .container .parallax {
     width: 100%;
     padding: 25rem 0;
@@ -336,6 +334,19 @@ marker {
     text-align: center;
 }
 
+.adresse{
+    position: center;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.between2{
+    height:22rem;
+}
+
 /* Footer */
 footer {
     background-color: #91E0A7;
@@ -347,8 +358,6 @@ footer {
 footer img {
     padding: 15%;
     width:80%;
-
-
 }
 
 /* Slideshow */
