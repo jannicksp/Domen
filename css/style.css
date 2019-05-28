@@ -19,13 +19,13 @@ img {
 
 /* Første big photo*/
 .container .for {
-    background-image: url("../img/domen.jpg");
+    background-image:url(../img/domen.jpg);
 }
 
 /* Parallax container */
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 au0to;
     color: white;
 }
 
@@ -152,6 +152,7 @@ i {
     display: none;
     margin-right: 1%;
     margin-left: 1%;
+    display: none;
 }
 
 
@@ -164,6 +165,7 @@ i {
     display: none;
     margin-left: 1%;
     margin-right: 1%;
+     display: none;
 
 }
 
@@ -499,7 +501,8 @@ p {
 /*video*/
 .video {
     width: 100%;
-    height: 400px
+    height: 400px;
+
 }
 
 .mellemfolk {
