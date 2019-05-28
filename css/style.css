@@ -27,7 +27,6 @@ img {
     width: 100%;
     margin: 0 auto;
     color: white;
-    text-align: center;
 }
 
 /* Overskrifter */
@@ -221,6 +220,11 @@ multiinsta {
     background-attachment: fixed
 }
 /* bigphoto underside vision*/
+.container .for3 {
+    background-image: url("../img/vision.jpg");
+}
+.container .for5 {
+    background-image: url("../img/kontakt.jpg");}
 .container .medborg {
     background-image: url("../img/medborger.jpg");
       background-size:contain;
@@ -438,6 +442,16 @@ p{
     }
 }
 
+/*video*/
+.video{
+    width: 100%;
+    height: 400px
+}
+.mellemfolk{
+    width: 50%;
+    
+}
+
 /* Media queries */
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -467,14 +481,20 @@ p{
 
 @media screen and (min-width: 850px) {
 
-    #nav {
-        padding: 2%;
-    }
 
-    #nav img {
+    #nav img  {
+        
+        width: 50%;
+    }
+    #logouden img{
         width: 10%;
     }
 
+    #nav{
+        padding: 2%;
+        padding-left: 7%;
+        padding-right: 7%
+    }
     .slideshow-container {
         display: none;
     }
