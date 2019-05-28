@@ -26,7 +26,7 @@ img {
 .container {
     width: 100%;
     margin: 0 auto;
-    color: black;
+    color:white;
 }
 
 #logouden img {
@@ -344,7 +344,7 @@ i {
 
 /* åbningstider */
 .aabningstider {
-    color: black;
+    color: white;
     font-size: 250%;
     width: 100%;
 }
