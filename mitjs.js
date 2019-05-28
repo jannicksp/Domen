@@ -54,7 +54,7 @@ document.getElementById("3").addEventListener("click",function() {
 
 
 
-document.getElementById("dom1").addEventListener("click",function() {  
+document.getElementById("11").addEventListener("click",function() {  
     document.getElementById("22").scrollIntoView(true);
 });
 document.getElementById("22").addEventListener("click",function() {

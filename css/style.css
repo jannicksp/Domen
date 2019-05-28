@@ -264,7 +264,6 @@ i {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    background-attachment: fixed
 }
 
 .container .byliv {
@@ -272,7 +271,6 @@ i {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    background-attachment: fixed
 }
 
 /* Nav overlay */
@@ -663,4 +661,10 @@ input[type=submit]:hover {
         font-size: 40px;
 
     }
+    .container .medborg {
+    background-attachment: fixed
+}
+    .container .byliv {
+    background-attachment: fixed
+}
 }
