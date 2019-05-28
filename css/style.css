@@ -683,4 +683,10 @@ input[type=submit]:hover {
     p{
         font-size:30px;
     }
+    .between1 img {
+    margin-left: 43%;
+    margin-right: 43%;
+    width: 14%;
+    margin-top: -20%;
+}
 }
