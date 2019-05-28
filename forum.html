@@ -54,58 +54,42 @@
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
             </div>
             <!-- Header slut-->
-<!-- kontakt snippet https://bootsnipp.com/snippets/qr1zR-->
-           </div>
-            <div class="container contact">
-	<div class="row">
-		<div class="col-md-3">
-			<div class="contact-info">
-				<h2 class="forum">Brug vores Forum</h2>
-				<p class="forum">Send os en besked hvis du har forslag til et event du vil holde. Bemærk at der tilmeldes automatisk Domens nyhedsbrev</p>
-			</div>
-		</div>
-		<div class="col-md-9">
-			<div class="contact-form">
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="fname">Navn:</label>
-				  <div class="col-sm-10">          
-					<input type="text" class="form-control" id="fname" placeholder="Indtast navn" name="fname">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="lname">Efternavn</label>
-				  <div class="col-sm-10">          
-					<input type="text" class="form-control" id="lname" placeholder="Indtast efternavn" name="lname">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="email">Email:</label>
-				  <div class="col-sm-10">
-					<input type="email" class="form-control" id="email" placeholder="Indtast email" name="email">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="comment">Kommentar</label>
-				  <div class="col-sm-10">
-					<textarea class="form-control" rows="5" id="comment"></textarea>
-				  </div>
-				</div>
-				<div class="form-group">        
-				  <div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-default">Indsend</button>
-				  </div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-    </div>
-    </div>
-    <div class="between">
+            <div class="between">
             <div class="title middle">
+            <h2 class="forum"> Afhold event</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Navn</label>
+    <input type="text" id="fname" name="firstname" placeholder=" Navn..">
+
+    <label for="lname">Efternavn</label>
+    <input type="text" id="lname" name="lastname" placeholder=" Efternavn..">
+
+    <label for="country">Eventtype</label>
+    <select id="country" name="country">
+      <option value="australia">Foredag</option>
+      <option value="canada">Fest</option>
+      <option value="usa">Workshop</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:200px"></textarea>
+
+    <input type="submit" value="Indsend">
+  </form>
+</div>
+
         </div>
-            
+            <div class="between">
+            <div class="title middle">
+                </div></div>
             </div>
+        </div>
+    </div>
+    
+    
 
    <!-- Footer -->
   <footer>
