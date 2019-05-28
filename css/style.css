@@ -51,11 +51,12 @@ img {
     clear: both;
 }
 
-.between img {
-    margin-left: 40%;
-    margin-right: 40%;
-    width: 10%;
-    padding: 0%;
+.between img{ 
+margin-left: 43%;
+    margin-right: 43%;
+    width: 14%;
+    padding:auto;
+    margin-top: 5%;
 }
 
 
