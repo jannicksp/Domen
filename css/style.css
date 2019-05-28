@@ -598,8 +598,9 @@ input[type=submit]:hover {
     }
 
     h3 {
-        font-size: 200%;
+        font-size: 30px;
         text-align: left;
+        margin-top: 5%;
     }
 
     .overskrifter h2 {
@@ -679,5 +680,7 @@ input[type=submit]:hover {
     .container .ark {
     background-attachment: fixed
 }
-    p{}
+    p{
+        font-size:30px;
+    }
 }
