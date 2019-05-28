@@ -310,12 +310,13 @@ marker {
 footer {
     background-color: #91E0A7;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer img {
-    padding: 5%;
+    padding: 15%;
+    width:80%;
 
 
 }
