@@ -19,13 +19,13 @@ img {
 
 /* Første big photo*/
 .container .for {
-    background-image: url("../img/domen.jpg");
+    background-image:url(../img/domen.jpg);
 }
 
 /* Parallax container */
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 au0to;
     color: white;
 }
 
@@ -546,6 +546,9 @@ input[type=submit]:hover {
         top: 15px;
         right: 35px;
     }
+    .container {
+    background-attachment:scroll;
+}
 }
 
 
