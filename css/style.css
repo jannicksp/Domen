@@ -17,7 +17,7 @@ img {
     cursor: pointer;
 }
 
-/* Første big photo*/
+/* Første big photo er hentet fra http://smagpaaaarhus.dk/wp-content/uploads/2017/07/18768580_613884108818343_5940340354444103458_o-1_2034x1027_acf_cropped.jpg?fbclid=IwAR2pocRp4P19bHml6mAAnd5DqaiDscT-RrJK_ELoTngSf8KeW-8kW9t1IZU*/
 .container .for {
     background-image:url(../img/domen.jpg);
 }
@@ -148,7 +148,7 @@ i {
 }
 
 
-/* andet bigphoto */
+/* Event billede hentet fra https://www.facebook.com/pg/domenaarhus/events/ */
 .container .eve {
     background-image:
         url("../img/event/event1.png");
@@ -163,7 +163,7 @@ i {
     display: none;
 }
 
-
+ /*billede hentet fra https://www.facebook.com/domenaarhus/photos/gm.1116572081860905/364485560840351/?type=3&theater*/
 .container .eve2 {
     background-image:
         url("../img/event/event2.png");
@@ -211,11 +211,11 @@ i {
 .container .for2 {
     background-image: url("../img/baren.jpg");
 }
-
+/* Vi har hentet billedet fra https://bimequity.dk/dome-of-visions/*/ 
 .container .fri {
     background-image: url("../img/cafe-mellemfolkeligtsamvirke.jpg");
 }
-
+/* billede hentet fra http://domeofvisions.dk/the-architecture/dome-3-0/ */
 .container .ark {
     background-image: url("../img/domen3.png");
 }
@@ -257,19 +257,19 @@ i {
     overflow: hidden;
 }
 
-/* bigphoto underside vision*/
+/* bigphoto til siden vision er hentet fra https://500px.com/photo/228561433/dome-of-visions-aarhus-by-bj%C3%B8rn-b%C3%A6k?fbclid=IwAR2VIQjBbVChbOL4eX1BMQ3WkoAq2nW36h2Jnpi_psREL7M0tKnaDbgFCiA*/
 .container .for3 {
     background-image: url("../img/vision.jpg");
 }
-
+/* Billedet er hentet fra https://www.minbyaarhus.dk/wp-content/uploads/2019/02/Domen-pa%CC%8A-Pier-2.jpg?fbclid=IwAR2wDj8KTjirbj-adT6qOrscc6MKI7v8lhcojcPjuoNJ29BoTuWzNyIDI_0 */
 .container .for5 {
     background-image: url("../img/kontakt.jpg");
 }
-
+/* billedet er hentet fra https://aarhusupdate.dk/wp-content/uploads/2017/03/1.-etage-hos-Dome-of-Visions-p%C3%A5-Aarhus-Havn_.jpg?fbclid=IwAR3ZBO-eIzUetFeLgSK_IC27qT5bzqNP31bvYSZ8_My-Dmn5-uvt-ya5hRk*/
 .container .for6 {
     background-image: url("../img/forum.jpg");
 }
-
+/*http://projektbank.dk/sites/default/files/styles/scale_w_500/public/2018-02/20171031_130023.jpg?itok=Nq45rljw&fbclid=IwAR0mthkg6N_YB8i9dy9UJjYvouKHRp6GCM4zKnEGsc96kAzDkidnoj1fHjY*/
 .container .medborg {
     background-image: url("../img/medborger.jpg");
     background-size: contain;
