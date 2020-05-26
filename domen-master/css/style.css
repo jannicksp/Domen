@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'PT sans narrow', sans-serif;
+    overflow-x: hidden;
+    background-image: url(../img/pattern.png)
+}
+
+img {
+    cursor: pointer;
+}
+
+/* Første big photo*/
+.container .for {
+    background-image: url("../img/domen.jpg");
+}
+
+/* Parallax container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+/* Overskrifter */
+.container h1 {
+    font-size: 400%;
+}
+
+/* Bjælker mellem opslag */
+.between {
+    height: 20rem;
+    position: relative;
+    color: black;
+    clear: both;
+}
+
+/* Tekstfelter */
+.bg {
+    width: auto;
+    margin-left: 3%;
+    margin-right: 50%;
+}
+
+/* Tekst til bigphoto */
+#velkomsttekst {
+    font-size:250%;
+    text-align: left;
+    padding-bottom: 45%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+/* Highlighted tekst */
+marker {
+    font-size: 120%;
+    font-weight: bold;
+    color: #91E0A7;
+}
+
+/* P-tag med padding*/
+#skub {
+    padding-bottom: 40%;
+}
+
+/* Indhold i hvid boks*/
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .parallax {
+    width: 100%;
+    padding: 25rem 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    /*background-attachment: fixed;*/
+}
+
+
+/* andet bigphoto */
+.container .eve {
+    background-image:
+        url("../img/event/event1.png");
+    width: 48%;
+    float: left;
+    clear: left;
+    display: none;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+.container .eve2 {
+    background-image:
+        url("../img/event/event2.png");
+    width: 49%;
+    float: left;
+    clear: right;
+    display: none;
+    margin-left: 1%;
+
+}
+
+/* Instafeed */
+multiinsta {
+    display: block;
+}
+
+/* tredje bigphoto */
+.container .insta {
+    background-image:
+        url("../img/ig/ig2.jpg");
+    width: 46%;
+    float: left;
+    clear: left;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 1%
+}
+
+
+.container .insta2 {
+    background-image: url("../img/ig/ig3.jpg");
+    width: 46%;
+    float: left;
+    clear: right;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%
+}
+
+.container .insta3 {
+    background-image:
+        url("../img/ig/ig1.jpg");
+    width: 46%;
+    float: left;
+    clear: left;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.container .insta4 {
+    background-image:
+        url("../img/ig/ig4.jpg");
+    width: 46%;
+    float: left;
+    clear: right;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%
+}
+
+/* Nav overlay */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(../img/overlay.png);
+    background-repeat: repeat;
+    opacity: 0.95;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 1%;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7%;
+}
+
+#nav img {
+    width: 25%;
+
+}
+
+#forside {
+    padding-top: 0%
+}
+
+/* åbningstider */
+.aabningstider {
+    color: black;
+    font-size: 250%;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer img {
+    padding: 5%;
+
+
+}
+
+/* Slideshow */
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    right: 94%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    position: absolute;
+    bottom: 10%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.text p {
+    font-size: 220%;
+    text-align: left;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Media queries */
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px;
+    }
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+
+    #nav {
+        padding: 2%;
+    }
+
+    #nav img {
+        width: 10%;
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
+    .kugler {
+        display: none;
+    }
+
+    .container .eve {
+        display: flex;
+
+
+    }
+
+    .container .eve2 {
+
+        display: flex;
+    }
+}
